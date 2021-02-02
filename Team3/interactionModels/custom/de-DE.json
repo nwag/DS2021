@@ -1,0 +1,192 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "smart chef",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "IngredientsIntent",
+          "slots": [
+            {
+              "name": "ingredient_one",
+              "type": "AMAZON.Food",
+              "samples": [
+                "{ingredient_one}"
+              ]
+            },
+            {
+              "name": "ingredient_two",
+              "type": "AMAZON.Food"
+            },
+            {
+              "name": "ingredient_three",
+              "type": "AMAZON.Food"
+            }
+          ],
+          "samples": [
+            "{ingredient_one}  {ingredient_two} und {ingredient_three}",
+            "{ingredient_one} {ingredient_two} {ingredient_three}",
+            "Ich habe {ingredient_one} {ingredient_two} und {ingredient_three}"
+          ]
+        },
+        {
+          "name": "FoodCategoryIntent",
+          "slots": [
+            {
+              "name": "category",
+              "type": "food_category"
+            }
+          ],
+          "samples": [
+            "{category}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "Jo",
+            "Japp",
+            "Yes",
+            "Ja"
+          ]
+        },
+        {
+          "name": "NextInstructionIntent",
+          "slots": [],
+          "samples": [
+            "weiter"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "Nope",
+            "Nein"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Amerikanisch"
+              }
+            },
+            {
+              "name": {
+                "value": "Asiatisch"
+              }
+            },
+            {
+              "name": {
+                "value": "Italienisch"
+              }
+            },
+            {
+              "name": {
+                "value": "Deutsch"
+              }
+            }
+          ],
+          "name": "food_category"
+        },
+        {
+          "values": [
+            {
+              "name": {
+                "value": "kartoffeln"
+              }
+            },
+            {
+              "name": {
+                "value": "salat"
+              }
+            },
+            {
+              "name": {
+                "value": "banane"
+              }
+            },
+            {
+              "name": {
+                "value": "birne"
+              }
+            },
+            {
+              "name": {
+                "value": "apfel"
+              }
+            }
+          ],
+          "name": "food_ingredients"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "IngredientsIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "ingredient_one",
+              "type": "AMAZON.Food",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.646329293874.537816961819"
+              }
+            },
+            {
+              "name": "ingredient_two",
+              "type": "AMAZON.Food",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            },
+            {
+              "name": "ingredient_three",
+              "type": "AMAZON.Food",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {}
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.646329293874.537816961819",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Ich habe leider keine der Zutaten verstanden. Bitte nenne mir drei Zutaten."
+          }
+        ]
+      }
+    ]
+  },
+  "version": "14"
+}

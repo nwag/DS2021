@@ -1,0 +1,247 @@
+<?xml version="1.0" ?>
+<root>
+	<Nudeln-mit-Tomatensauce type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Nudeln</item>
+				<item type="str">250g</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Tomatensauce</item>
+				<item type="str">500ml</item>
+			</food_1>
+		</foods>
+		<category type="list">
+			<item type="str">Deutsch</item>
+			<item type="str">Italienisch</item>
+		</category>
+		<instructions type="str">1) 1L gesalzenes Wasser zum Kochen bringen|||
+2) Währendessen die Passierten Tomaten in einen zweiten Topf geben und auf mittlerer Stufe erwärmen. Optional können Zwiebeln oder Knoblauch in diesem Topf vorher angebraten werden|||
+3) Nudeln in das Kochende Wasser geben.|||
+4) Sauce nach beliebem würzen. Beispielsweise mit Salz, Pfeffer, Oregano, Basilikum.</instructions>
+	</Nudeln-mit-Tomatensauce>
+	<Tomate-Schafskaese type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Schafskäse</item>
+				<item type="str">1 Stück</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Tomate</item>
+				<item type="str">1 Stück</item>
+			</food_1>
+		</foods>
+		<category type="list">
+			<item type="str">Griechisch</item>
+		</category>
+		<instructions type="str">1) Schafskäse und Tomate in Scheiben schneiden|||
+2) In einer ofenfesten Auflaufform schichten|||
+3) Mit Salz, Basilikum, Pfeffer und Granuliertem Knoblauch würzen, mit Olivenöl beträufeln|||
+4) Bei 175°C im Ofen für etwa 25min backen.</instructions>
+	</Tomate-Schafskaese>
+	<Griessbrei type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Weichweizengriess</item>
+				<item type="str">100g</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Milch</item>
+				<item type="str">500ml</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Zucker</item>
+				<item type="str">2 El</item>
+			</food_2>
+		</foods>
+		<category type="list">
+			<item type="str">Deutsch</item>
+		</category>
+		<instructions type="str">1) Milch in einem Topf zum Kochen bringen|||
+2) Weichweizengries und Zucker einrühren|||
+3) In Teller geben, optional mit Zimt und Zucker bestreuen, oder mit Apfelmus servieren.</instructions>
+	</Griessbrei>
+	<Mango-Curry type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Mango</item>
+				<item type="str">1 Stück</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Reis</item>
+				<item type="str">1 Tasse</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Zwiebel</item>
+				<item type="str">1 Stück</item>
+			</food_2>
+			<food_3 type="list">
+				<item type="str">Knoblauch</item>
+				<item type="str">1 Zehe</item>
+			</food_3>
+		</foods>
+		<category type="list">
+			<item type="str">Indisch</item>
+		</category>
+		<instructions type="str">1) Zwiebel in Würfel schneiden|||
+2) Zwiebeln und Knoblauch in einer Pfanne anbraten|||
+3) Den Reis mit 2 Tassen Wasser und etwas Salz in einem Topf zum kochen bringen|||
+4) Wenn die Zwiebeln glasig sind, die Geschnittene Mango in die Pfanne hinzugeben.|||
+5) Etwas Wasser hinzugeben und Würzen, gegebenenfalls mit etwas stärke (vorher in Kaltem wasser aufgelöst) verdicken. </instructions>
+	</Mango-Curry>
+	<Hummus type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Kichererbsen</item>
+				<item type="str">1 Dose (250g)</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Knoblauch</item>
+				<item type="str">1 Zehe</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Petersilie</item>
+				<item type="str">-1</item>
+			</food_2>
+			<food_3 type="list">
+				<item type="str">Olivenöl</item>
+				<item type="str">2 EL</item>
+			</food_3>
+			<food_4 type="list">
+				<item type="str">Zitrone</item>
+				<item type="str">2 EL</item>
+			</food_4>
+			<food_5 type="list">
+				<item type="str">Tahin</item>
+				<item type="str">2 EL</item>
+			</food_5>
+			<food_6 type="list">
+				<item type="str">Kreuzkümmel</item>
+				<item type="str">1/2 TL</item>
+			</food_6>
+		</foods>
+		<category type="list">
+			<item type="str">Indisch</item>
+		</category>
+		<instructions type="str">1) Alles in einen Zerkleinerer oder Mixer geben und mixen.|||</instructions>
+	</Hummus>
+	<Frühlingsrollen type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Reisblätter</item>
+				<item type="str">30 Stück</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Karotten</item>
+				<item type="str">3 Stück</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Ingwer</item>
+				<item type="str">1 Stück</item>
+			</food_2>
+			<food_3 type="list">
+				<item type="str">Weisskraut</item>
+				<item type="str">1/4 Krautkopf</item>
+			</food_3>
+			<food_4 type="list">
+				<item type="str">Sojsproesslinge</item>
+				<item type="str">1 Glas</item>
+			</food_4>
+			<food_5 type="list">
+				<item type="str">Bambussprösslinge</item>
+				<item type="str">1 Glas</item>
+			</food_5>
+		</foods>
+		<category type="list">
+			<item type="str">Chniesisch</item>
+		</category>
+		<instructions type="str">1) Das Geschnittene Gemüse in eine Pfanne geben und mit Koriander würzen|||
+2) 1EL des Gebratenen Gemüses auf ein Reisblatt geben und rollen.|||
+3) Die Rollen goldbraun frittieren.
+</instructions>
+	</Frühlingsrollen>
+	<Chili-Con-Carne type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Hackfleisch</item>
+				<item type="str">400g</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Chilischote</item>
+				<item type="str">1 Stück</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Mais</item>
+				<item type="str">1 Dose</item>
+			</food_2>
+			<food_3 type="list">
+				<item type="str">Tomaten gehackt</item>
+				<item type="str">1 Dose</item>
+			</food_3>
+			<food_4 type="list">
+				<item type="str">Knoblauch</item>
+				<item type="str">1 Zehe</item>
+			</food_4>
+			<food_5 type="list">
+				<item type="str">Zwiebel</item>
+				<item type="str">1 Stück</item>
+			</food_5>
+			<food_6 type="list">
+				<item type="str">Kidney Bohnen</item>
+				<item type="str">1 Dose</item>
+			</food_6>
+		</foods>
+		<category type="list">
+			<item type="str">Mexikanisch</item>
+		</category>
+		<instructions type="str">1) Die Zwiebeln in eine heiße (große) Pfanne, oder Topf geben und kurze Zeit später den Knoblauch hinzugeben|||
+2) Das Hackfleisch in die Pfanne geben und braun braten.|||
+3) Die Gehackten Tomaten, Kidney Bohnen, sowie den Mais und die Chilischoten in die Pfanne geben, nach beliebem mit Salz, Pfeffer, Paprika würzen. Optional etwas Zitrone und ein Stück Zartbitterschokolade hinzugeben.</instructions>
+	</Chili-Con-Carne>
+	<Wraps type="dict">
+		<foods type="dict">
+			<food_0 type="list">
+				<item type="str">Wraps</item>
+				<item type="str">2 Stück</item>
+			</food_0>
+			<food_1 type="list">
+				<item type="str">Aubergine</item>
+				<item type="str">1/2 Stück</item>
+			</food_1>
+			<food_2 type="list">
+				<item type="str">Karotten</item>
+				<item type="str">2 Stück</item>
+			</food_2>
+			<food_3 type="list">
+				<item type="str">Zwiebel</item>
+				<item type="str">1 Stück</item>
+			</food_3>
+			<food_4 type="list">
+				<item type="str">Joghurt</item>
+				<item type="str">3 EL</item>
+			</food_4>
+			<food_5 type="list">
+				<item type="str">Knoblauch</item>
+				<item type="str">1 Zehe</item>
+			</food_5>
+		</foods>
+		<category type="list">
+			<item type="str">Deutsch</item>
+			<item type="str">Italienisch</item>
+		</category>
+		<instructions type="str">1) Das Gemüse schneiden und in eine Pfanne geben.|||
+2) Den Joghurt mit Salz, Pfeffer und Kräutern würzen.|||
+3) Die Wraps im Backofen oder in der Mikrowelle erwärmen (Anleitung auf der Verpackung)</instructions>
+	</Wraps>
+	<Category type="list">
+		<item type="str">Spanisch</item>
+		<item type="str">Griechisch</item>
+		<item type="str">Deutsch</item>
+		<item type="str">Italienisch</item>
+		<item type="str">Indisch</item>
+		<item type="str">Chniesisch</item>
+		<item type="str">Mexikanisch</item>
+		<item type="str">Warmes Gericht</item>
+		<item type="str">Sueses-Gericht</item>
+	</Category>
+</root>
