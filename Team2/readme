@@ -1,1 +1,17 @@
+Willkommen bei Daily Quizzz!
 
+Starte den Skill mit dem invoke Aufruf: "Alexa starte daily quiz"
+
+Danach befindest du dich im Hauptmenü: 
+  Mit "Hilfe" wird dir eine Hilfestellung gegeben. 
+  Mit "Statistik" kannst du deine Statistiken anschauen (musst dafür zuerst Fragen beantwortet haben).
+  Mit "Los" startest du das Quiz.
+  
+Nun kannst du die Schwierigkeit mit "leicht", "mittel" oder "schwer" für das ausgesuchte Themengebiet festlegen.
+
+Es werden dir zwei Fragen Fragen gestellt. Beantworte diese mit "Es ist A" oder "Es ist B".
+
+Nach den Fragen kannst du dich entscheiden ob du nocheinmal eine Fragerunde starten, oder den Skill lieber beenden willst.
+
+
+Viel Spaß beim Quizzzzen
