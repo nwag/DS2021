@@ -1,1 +1,10 @@
+Unser Skill gibt Rezeptvorschläge anhand von genannten Zutaten. Optional kann zusätzlich nach einer Kategorie gefiltert werden.
 
+Skill starten mit: starte smart chef
+
+Man wird aufgefordert entweder eine Kategorie oder drei Zutaten zu nennen. 
+Wenn man eine Kategorie nennen möchte, sollte man das zunächst tun. 
+Hat man drei Zutaten genannt, werden diese (mit ggf Kategorie) nochmals wiederholt und müssen mit ja bestätigt werden (mit nein, kann man alles nochmal ändern).
+Man bekommt nun den ersten Rezeptvorschlag. Zusätzlich wird genannt, was man in welcher Menge dazu braucht.
+Diesen Vorschlag kann man bestätigen oder man bekommt einen weiteren.
+Hat man ein Rezept gewählt, kann man optional sich die einzelnen Schritte vorlesen lassen.
