@@ -1,0 +1,22 @@
+Intent;OutputNo;Text
+LaunchRequestHandler;1;Willkommen bei Daily Quiz! Wenn wir direkt starten sollen, sag Start oder Los! Um deine Statistiken anzuschauen, sag Statistik! Und falls du Hilfe brauchst, sag einfach Hilfe! Viel Spaß!
+LaunchRequestHandler;1;Grüss dich Diggi! Willkommen bei Daily Quiz! Wenn wir direkt starten sollen, sag Start oder Los! Um deine Statistiken anzuschauen, sag Statistik! Und falls du Hilfe brauchst, sag einfach Hilfe! Viel Spaß!
+LaunchRequestHandler;1;Hallo bei Daily Quiz! Möchtest Du direkt starten? Dann sag Start oder Los! Um deine Statistiken anzuschauen, sag Statistik! Und falls du Hilfe brauchst, sag einfach Hilfe! Viel Spaß!
+StartIntentHandler;1;Sehr gut, dann legen wir los! Die zufällig ausgewählte Kategorie ist 
+StartIntentHandler;1;Spitze, dann geht’s los! Ich habe folgende Kategorie ausgewählt:
+StartIntentHandler;1;Mega! Ab geht die Post!  Die zufällig ausgewählte Kategorie ist 
+AnwserIntentIntentHandler;1;Gut gemacht, deine Antwort ist richtig! 
+AnwserIntentIntentHandler;1;Richtig! Du bist ein Ehrenmann!
+AnwserIntentIntentHandler;1;Korrekt Brudi!
+AnwserIntentIntentHandler;2;Deine Antwort ist leider falsch! Die richtige Antwort lautet:
+AnwserIntentIntentHandler;2;Hoppla! Spiele wie eine Flasche leer! Die richtige Antwort lautet:
+AnwserIntentIntentHandler;2;Satz mit X, war wohl nix! Die richtige Antwort lautet:
+AnwserIntentIntentHandler;3;Du hast alle Fragen beantwortet. Willst du dich an ein erneutes Quiz heranwagen?
+AnwserIntentIntentHandler;3;Du habe fertig! Nochmal spielen?
+AnwserIntentIntentHandler;3;Das wars! Möchtest du erneut spielen?
+AnwserIntentIntentHandler;4;Nun kommt Frage Nummer 
+AnwserIntentIntentHandler;4;Als nächstes kommt Frage 
+AnwserIntentIntentHandler;4;Die nächste Frage ist Frage Nummer
+DiffIntentHandler;1;Alles klar! Wir starten mit Frage Nummer 1 von 
+DiffIntentHandler;1;Geilo! Los geht’s mit Frage 1 von 
+DiffIntentHandler;1;Fett! Dann starten wir direkt mit Frage Nummer 1 von 
